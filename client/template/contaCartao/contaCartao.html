@@ -1,0 +1,59 @@
+<Template name="contaCartao">
+    <link type="text/css" rel="stylesheet" href="ContaCartao.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="ContaCartao.js"></script>
+    <script type="text/javascript">
+    </script>
+    <!--Botoẽs para opções de conta-->
+    <div class="container">
+        <div class="z-depth-2" id="box">
+            <div>
+                <div id="alinha">
+                    <a class="btn-floating btn-large waves-effect waves-light black "><i class="material-icons">account_balance</i></a>
+                </div>
+                <div id="ali">
+                    <a class="btn-floating btn-large waves-effect waves-light blue darken-2"><i class="material-icons"><i class="material-icons">credit_card</i></i></a>
+                </div>
+
+                <!-- Input de valor-->
+                <form class="col s4">
+                    <div class="row" id="esp">
+                        <div class="input-field col s12">
+                            <input placeholder="Nome da conta" id="recebi" type="text" class="validate">
+                            <label id="labe" for="nome"></label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <form class="col s4">
+                            <div class="row" id="esp">
+                                <div class="input-field col s12">
+                                    <input placeholder="$ 00,00" id="recebi" type="text" class="validate">
+                                    <label id="labe" for="valorInicial"></label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--Botões para salvar e cancelar-->
+    <form>
+        <div class="container">
+            <div>
+                <a href="#" class="waves-effect waves light blue darken-3 btn" id="but"> <i class="material-icons">clear</i></a>
+            </div>
+            <div type="submit">
+                <a href="/principal" class="waves-effect waves light blue darken-3 btn" id="bu"> <i class="material-icons">done</i></a>
+            </div>
+
+        </div>
+    </form>
+</template>

@@ -1,0 +1,25 @@
+<template name="header">
+
+    <script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#blogin").click(function() {
+                $(".log").slideDown(900);
+            });
+        });
+    </script>
+    <nav class="nav-wrapper brown lighten-5 z-depth-3">
+        <a href="{{pathFor 'principal'}}" class="brand-logo"><img src="/images/piggy.png" alt="icone" width="66px"></a>
+
+    </nav>
+    <style type="text/css">
+        .log {
+            display: none;
+        }
+    </style>
+
+
+
+    <a class="waves-effect waves-light btn brown lighten-4" id="blogin" href="{{pathFor 'login'}}" >Login</a>
+
+</template>

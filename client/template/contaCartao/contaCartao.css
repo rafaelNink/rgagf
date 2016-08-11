@@ -1,0 +1,39 @@
+#alinha{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 110px;
+  text-align: left;
+}
+
+#ali{
+  margin-top: -75px;
+  margin-right: 110px;
+  text-align: right;
+
+}
+
+ #labe{
+   font-size: 30px;
+   text-align: center;
+ }
+
+#box{
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container{
+  margin-top: 80px;
+}
+
+#but{
+   float: right;
+   margin: auto;
+}
+
+#bu{
+   float: right;
+   margin: auto;
+   margin-right: 30px;
+}
